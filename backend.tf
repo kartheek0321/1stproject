@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "myterraform-bucketproject"
+    bucket = "proj-kk"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "DynamoDB"
+    dynamodb_table = "projDB"
   }
 }

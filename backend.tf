@@ -3,6 +3,6 @@ terraform {
     bucket = "kartheek-bucket1"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "dynamodb1-kartheek"
+    dynamodb_table = "dynamo-db"
   }
 }

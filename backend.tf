@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "kk-mj"
+    bucket = "kartheek-bucket1"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "kkdb"
+    dynamodb_table = "dynamodb1-kartheek"
   }
 }

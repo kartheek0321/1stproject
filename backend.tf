@@ -3,6 +3,6 @@ terraform {
     bucket = "kar3k"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "kar3k"
+    dynamodb_table = "karthik"
   }
 }

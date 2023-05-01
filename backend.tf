@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "kar3k"
+    bucket = "my-backup-kar3k"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "karthik"
+    dynamodb_table = "my-db"
   }
 }
